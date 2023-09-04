@@ -1,0 +1,36 @@
+Instalar node.js (ultima versao)
+Instalar extensão biblioteca JavaScript and TypeScript Nightly no VSCodeStudio
+Abrir terminal no VSC: npm install -g typescript
+
+tsc Pessoa.ts
+Se houver erro de execução: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+tsc Pessoa.ts
+
+Abrir o JS e incorporar em um html
+
+
+Pessoa.ts:
+class Pessoa {
+    // Propriedades da classe
+    nome: string;
+    idade: number;
+ 
+    // Construtor da classe
+    constructor(nome: string, idade: number) {
+      this.nome = nome;
+      this.idade = idade;
+    }
+ 
+    // Método para exibir informações da pessoa
+    displayInfo() {
+      console.log(`Nome: ${this.nome}, Idade: ${this.idade} anos`);
+    }
+  }
+ 
+  // Instanciando a classe Pessoa
+  const pessoa1 = new Pessoa("Andre", 34);
+  const pessoa2 = new Pessoa("Celaieneoida", 18);
+ 
+  // Chamando o método para exibir informações
+  pessoa1.displayInfo();
+  pessoa2.displayInfo();
